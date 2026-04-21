@@ -103,8 +103,4 @@ int pode_jogar(struct Mesa mesa, int origem, int destino, int qtd){ // Função 
     if(qtd > 1){ // Se a quantidade de cartas a mover for maior que 1...
         return pode_mover_conjunto(mesa, origem, destino, qtd); // então verifica se é possível mover um conjunto de cartas da coluna de origem para a coluna de destino.
     }
-
-    if(qtd > 1){
-        return pode_mover_conjunto(mesa, origem, destino, qtd);
-    }
 }
